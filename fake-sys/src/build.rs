@@ -1,5 +1,6 @@
 use std::os;
-use std::io::{File,Command};
+use std::fs::File;
+use std::process::Command;
 
 fn main() {
     let out_dir = os::getenv("OUT_DIR").unwrap();
